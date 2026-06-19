@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { createFileRoute, useServerFn } from "@tanstack/react-start";
+import { createFileRoute } from "@tanstack/react-router";
+import { useServerFn } from "@tanstack/react-start";
 import { Mail, Sparkles } from "lucide-react";
-import { createFileRoute as cfr } from "@tanstack/react-router";
 
 import { PageHeader, ResponsibleAIBanner } from "@/components/page-header";
 import { OutputCard } from "@/components/output-card";
