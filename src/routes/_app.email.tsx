@@ -19,7 +19,7 @@ import {
 import { generateEmail } from "@/lib/ai.functions";
 import { toast } from "sonner";
 
-export const Route = cfr("/_app/email")({
+export const Route = createFileRoute("/_app/email")({
   head: () => ({
     meta: [
       { title: "Smart Email Generator — Aria" },
